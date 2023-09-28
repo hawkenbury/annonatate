@@ -1,0 +1,37 @@
+---
+canvas: "https://media.nga.gov/public/manifests/canvas/46626.json"
+order: 2
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "hand",
+            "purpose": "commenting",
+            "creator": {
+                "id": "hawkenbury",
+                "name": "Chris Tomlinson"
+            },
+            "created": "2023-09-28T10:10:03.440Z",
+            "modified": "2023-09-28T10:10:04.927Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://media.nga.gov/public/manifests/nga_highlights.json",
+                "type": "Manifest"
+            },
+            "id": "https://media.nga.gov/public/manifests/canvas/46626.json",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><ellipse cx=\"5160.1397705078125\" cy=\"12163.6884765625\" rx=\"1333.6614990234375\" ry=\"2417.9375\"></ellipse></svg>"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "8c215a61-988a-40ab-9c80-d0a6088537ab.json",
+    "motivation": "commenting"
+}
