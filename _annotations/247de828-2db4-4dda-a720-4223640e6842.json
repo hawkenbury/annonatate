@@ -1,0 +1,37 @@
+---
+canvas: "https://hawkenbury.github.io/annonatate/img/derivatives/iiif/Harveymap/canvas/Harveymap-1"
+order: 3
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "this bit",
+            "purpose": "commenting",
+            "creator": {
+                "id": "hawkenbury",
+                "name": "Chris Tomlinson"
+            },
+            "created": "2023-09-28T11:44:02.095Z",
+            "modified": "2023-09-28T11:44:04.046Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://hawkenbury.github.io/annonatate/img/derivatives/iiif/Harveymap/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://hawkenbury.github.io/annonatate/img/derivatives/iiif/Harveymap/canvas/Harveymap-1",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><ellipse cx=\"592.6057891845703\" cy=\"236.98619079589844\" rx=\"204.28684997558594\" ry=\"93.04151916503906\"></ellipse></svg>"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "247de828-2db4-4dda-a720-4223640e6842.json",
+    "motivation": "commenting"
+}
