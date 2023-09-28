@@ -3,20 +3,22 @@ canvas: "https://hawkenbury.github.io/annonatate/img/derivatives/iiif/Harveymap/
 order: 6
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "circle",
-            "purpose": "commenting",
+            "created": "2023-09-28T11:59:12.552Z",
             "creator": {
                 "id": "hawkenbury",
                 "name": "Chris Tomlinson"
             },
-            "created": "2023-09-28T11:59:12.552Z",
-            "modified": "2023-09-28T11:59:13.974Z"
+            "modified": "2023-09-28T11:59:13.974Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "circle"
         }
     ],
+    "id": "95982848-b34e-47ca-86ba-47533629d93b.json",
+    "motivation": "commenting",
     "target": {
         "source": {
             "partOf": {
@@ -28,10 +30,8 @@ order: 6
         },
         "selector": {
             "type": "SvgSelector",
-            "value": "<svg><circle cx=\"233.9239501953125\" cy=\"320.5887451171875\" r=\"52.17647822248806\"></circle></svg>"
+            "value": "<svg><circle cx=\"301.1966857910156\" cy=\"228.94698850089247\" r=\"50.181867040931536\"></circle></svg>"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "95982848-b34e-47ca-86ba-47533629d93b.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
