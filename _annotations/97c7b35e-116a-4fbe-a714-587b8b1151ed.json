@@ -4,35 +4,34 @@ order: 1
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "bay",
-            "purpose": "commenting",
+            "created": "2023-09-28T11:41:13.682Z",
             "creator": {
                 "id": "hawkenbury",
                 "name": "Chris Tomlinson"
             },
-            "created": "2023-09-28T11:41:13.682Z",
-            "modified": "2023-09-28T11:41:14.240Z"
+            "modified": "2023-09-28T11:41:14.240Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "bay"
         }
     ],
+    "id": "97c7b35e-116a-4fbe-a714-587b8b1151ed.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "value": "<svg><polygon points=\"211.6749267578125,583.5321655273438 417.3102111816406,583.5321655273438 622.9454956054688,583.5321655273438 622.9454956054688,680.6189270019531 622.9454956054688,777.7056884765625 417.3102111816406,777.7056884765625 211.6749267578125,777.7056884765625 211.6749267578125,680.6189270019531\"></polygon></svg>",
+            "type": "SvgSelector"
+        },
         "source": {
+            "id": "https://hawkenbury.github.io/annonatate/img/derivatives/iiif/Harveymap/canvas/Harveymap-1",
             "partOf": {
                 "id": "https://hawkenbury.github.io/annonatate/img/derivatives/iiif/Harveymap/manifest.json",
                 "type": "Manifest"
             },
-            "id": "https://hawkenbury.github.io/annonatate/img/derivatives/iiif/Harveymap/canvas/Harveymap-1",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=211.6749267578125,583.5321655273438,411.27056884765625,194.17352294921875"
         }
     },
-    "id": "97c7b35e-116a-4fbe-a714-587b8b1151ed.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
