@@ -1,0 +1,40 @@
+---
+canvas: "https://hawkenbury.github.io/annonatate/img/derivatives/iiif/Harveymap/canvas/Harveymap-1"
+order: 4
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "box",
+            "purpose": "commenting",
+            "creator": {
+                "id": "hawkenbury",
+                "name": "Chris Tomlinson"
+            },
+            "created": "2023-09-28T11:58:43.814Z",
+            "modified": "2023-09-28T11:58:44.645Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://hawkenbury.github.io/annonatate/img/derivatives/iiif/Harveymap/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://hawkenbury.github.io/annonatate/img/derivatives/iiif/Harveymap/canvas/Harveymap-1",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"198.19065856933594,119.67296600341797 198.19065856933594,119.67296600341797 198.19065856933594,119.67296600341797 198.19065856933594,119.67296600341797\" /></svg>"
+        },
+        "renderedVia": {
+            "name": "annotorious-tilted-box"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "dd29433c-df2a-4f8a-b317-5c3428fdb23b.json",
+    "motivation": "commenting"
+}
